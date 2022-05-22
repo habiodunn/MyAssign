@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    color: #07090c;
+    margin: 0;
+ }
+
+   header{
+    background-color: rgb(14, 92, 156);
+    font-size: x-large;
+   font-style: italic;
+  color: white;
+  width: auto;
+}
+
+.nav-bar a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+    h1{
+        margin-top: auto;
+        color: white;
+        text-align: center;
+    }
+
+    h2{
+        color: rgb(14, 92, 156);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .form{
+        width: 95%;
+        max-width: 25rem;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .inputs{
+        margin-bottom: 0.1rem;
+      }
+      
+input, label{
+    margin-bottom: -30px;
+}
+
+      .inputs label{
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: black;
+        display: block
+    }
+
+    .inputs input{
+        display: block;
+      font: inherit;
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #720303;
+      padding: 0.25rem;
+      background-color: #fde8ea;
+      text-decoration: dotted;
+    }
+
+    .gender{
+        border-radius: 4px;
+        padding: 0.5rem 1.5rem;
+        border: 1px solid #720303;
+        
+    }
+
+    .gender select{
+        background-color: #fde8ee;
+    }
+    
+    
+    .buttons{
+        margin-top: 1.5rem;
+    }
+
+    .buttons button{
+        font: inherit;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        background-color: #001D6E;
+        color: white;
+        border: 1px solid #001D6E;
+    }
+
+    .buttons button:hover {
+        background-color: #035397;
+        border-color: #035397;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

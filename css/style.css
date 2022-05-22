@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    color: #07090c;
+    margin: 0;
+   }
+
+    img{
+       border-radius: 100rem;
+        height: 300px;
+       margin-left: 680px;
+       margin-top: 20px;
+    }
+   
+   h1{
+        margin-top: auto;
+        color: white;
+        text-align: center;
+    }
+
+    h2{
+        color: rgb(14, 92, 156);
+        font-size: xx-large;
+    }
+
+    h4{
+        color: #5480d8;
+       font-size: 20px;
+    }
+
+    .nav-bar a{
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+        }
+
+    header{
+            background-color: rgb(14, 92, 156);
+            font-size: x-large;
+           font-style: italic;
+          color: white;
+          width: auto;
+        }
+
+hr{
+    border: double;
+    border-bottom: dotted;
+    margin: 50px auto;
+    width:20%;
+    color: #a7b6d4;
+}
+
+.form{
+    width: 95%;
+    max-width: 25rem;
+    margin: 2rem auto;
+}
+
+.inputs{
+  margin-bottom: 0.5rem;
+}
+
+.inputs label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+    display: block
+}
+
+.inputs input,textarea{
+    display: block;
+  font: inherit;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #720303;
+  padding: 0.25rem;
+  background-color: #fde8ea;
+}
+
+.buttons{
+    margin-top: 1.5rem;
+}
+
+.buttons button{
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: #001D6E;
+    color: white;
+    border: 1px solid #001D6E;
+}
+
+.priority{
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+}
+
+.buttons button:hover {
+    background-color: #035397;
+    border-color: #035397;
+}
+
+.priority select{
+    background-color: #fde8ea;
+}
+
+footer{
+    text-align: center;
+    color: blueviolet;
+    padding:  50px 0 20px;
+    }
+
+.footers{
+margin: 20px;
+font-size: larger;
+}
